@@ -69,9 +69,7 @@ body {
   cursor: pointer;
 }
 
-/* .nav-footer a:hover {
-  font-weight: bold;
-} */
+
 
 .social-icons {
   cursor: pointer;
@@ -96,7 +94,6 @@ p {
 
 .card:hover {
   transform: scale(1.1);
-
   z-index: 1;
   cursor: pointer;
 }

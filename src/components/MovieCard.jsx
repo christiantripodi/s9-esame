@@ -20,7 +20,7 @@ class MovieCard extends Component {
     let cardClass = "card-body"
     cardClass+=this.state.isCardHovered? "" : " d-none"
     return (
-        <Col xs={12} sm={6} md={2}>
+        <Col xs={12} sm={6} md={4} xl={2}>
       <div className="card mb-2 mt-3" onMouseEnter={this.hoverCard} onMouseLeave={this.exitCard}>
         <img className="cardDimension" src={movie.Poster} alt={movie.Title} />
         <div className= {cardClass}>
