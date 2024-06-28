@@ -45,7 +45,7 @@ class Header extends Component {
                   <i className="bi bi-search right-icons" />
                   <p className="text-light fw-bold m-0 align-self-center">KIDS</p>
                   <i className="bi bi-bell-fill right-icons" />
-                  <a href="#vuoto" onClick={()=>{this.setState({showProfile:true})}}>
+                  <a href="#vuoto" >
                     <img
                       src="./assets/images/avatar.png"
                       alt="profile_avatar"

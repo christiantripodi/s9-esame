@@ -1,39 +1,134 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #212529;
+}
+
 .App {
-    text-align: center;
+  background-color: #212529;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+
+  to {
+    transform: rotate(360deg);
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
+
+footer a:hover {
+  color: white
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #212529;
+}
+
+.App {
+  background-color: #212529;
+}
+
+.right-icons {
+  color: white;
+  margin: 0px 10px;
+}
+
+
+.nav-footer a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* .nav-footer a:hover {
+  font-weight: bold;
+} */
+
+.social-icons {
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+p {
+  color: rgb(191, 185, 185);
+}
+
+
+
+
+.card {
+  transition: all 1s ease;
+  border: none !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+
+  z-index: 1;
+  cursor: pointer;
+}
+
+.card-icons {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.card-icons>span:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  background-color: #212529;
+}
+
+
+
+.size {
+  font-size: 12px;
+}
+
+.cardDimension {
+  height: 20em;
+  object-fit: cover;
+}
+
+
+
+.scrollX {
+  overflow-x: scroll;
+  overflow-y: visible
+}

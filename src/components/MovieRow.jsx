@@ -23,7 +23,7 @@ class MovieRow extends Component {
           isLoading: false,
         });
       } else {
-        console.log("errore nella chiamata");
+        console.log("errore di chiamata");
         this.setState({
           isLoading: false,
           isError: true,
