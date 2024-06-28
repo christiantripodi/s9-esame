@@ -85,8 +85,6 @@ p {
 }
 
 
-
-
 .card {
   transition: all 1s ease;
   border: none !important;
@@ -101,7 +99,7 @@ p {
 .card-icons {
   font-size: 30px;
   color: white;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .card-icons>span:hover {
@@ -111,7 +109,7 @@ p {
 .card-body {
   background-color: #212529;
 }
-
+ddd
 
 
 .size {
